@@ -1,0 +1,35 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: url(/user1/user1.png);
+  }
+  
+h2 {
+    font-size: 1%;
+    padding: 1rem;
+  }
+  
+.coming-soon {
+    min-height: 10px;
+    display: flex;
+    align-items: bottom;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: bottom;
+    margin-bottom: 1%;
+  }
+  
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 2rem;
+  }
+  
+.waiting {
+    height: 50vh;
+  }
